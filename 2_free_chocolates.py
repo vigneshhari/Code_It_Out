@@ -42,6 +42,8 @@ Sample input        |  Sample Output
 
 '''
 
+#Python 2
+
 def recsol(a,b,lev):
     if (a <= 0 or b <= 0): return
     if (a == 1 and b == 1): return lev
