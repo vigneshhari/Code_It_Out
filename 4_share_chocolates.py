@@ -39,7 +39,6 @@ def answer(n):
         elif num % 4 == 3 :
             num += 1
         else:
-            print 'ruh roh'
             break
         counter += 1
     return counter
