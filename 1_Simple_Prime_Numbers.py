@@ -31,11 +31,17 @@ For 10 , 10 itself is not the least prime divisor , hence the answer is 0
 
 Constraints
 
+N <= 100000
+L <= 10^7
+
 '''
 
 #Answer in Python 2
 
+
 X,M = map(int , raw_input().split(" "))
+
+
 P = [1 for _ in xrange(M+1)]
 P[0] , P[1] = 0,0 
 i = 2
@@ -50,3 +56,4 @@ while i*i <= M :
 for i in range(X):
     num = input()
     print P[num]
+

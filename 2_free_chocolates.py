@@ -38,7 +38,13 @@ Sample input        |  Sample Output
 2 4                 |   impossible
 4 2                 |   impossible
 
+Constraints
 
+N < 100000
+M,F > 0
+M,F < 10^50 
+
+*You might wanna consider using large variable datatypes to avoid overflow errors and other issues*
 
 '''
 
@@ -57,10 +63,10 @@ def recsol(a,b,lev):
         return recsol(a, b,time + lev)
     return recsol(a-b,b,lev+1) or recsol(a,b-a,lev+1)
 
-def answer(M, F):
-    M = int(M)
-    F = int(F)
-    if(M > 10 ** 50 or F > 10 ** 50 or M < 0 or F < 0):return "-1"
+inp = input()
+for i in range(inp):
+    M , F = map(int , raw_input("").split(" "))
+    if(M > 10 ** 50 or F > 10 ** 50 or M < 0 or F < 0):print "-1"
     val = recsol(M,F,0)
-    if(val == None):return "impossible"
-    else: return str(val)
+    if(val == None):print "impossible"
+    else: print val
