@@ -11,7 +11,10 @@ N is the number of questions Teacher asked and L is the limit upto which we have
 After that N lines follow Each with one input X
 
 Output
-Output the number of number upto L (Inclusive) with the same least prime factor as the number X (Inclusive)
+Output the number of numbers upto L (Inclusive) with the same least prime factor as the number X (Inclusive)
+
+
+0 and 1 are not considered as least prime factors and hence excluded from all calculations
 
 Sample Cases
 
