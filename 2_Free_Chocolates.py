@@ -5,12 +5,11 @@ Damu makes chocolates using uses special type of organic cells.
 Damu agress to give Motu Free chocolates if he solves his problem.
 
 Damu has two types of Cells A and B
-The cells are highly active so in one step either evey cell from A regenerates and moves to B. Or Every cell from B regenerates and moves to A
+The cells are highly active so in one step either Every cell from A regenerates and moves to B. Or Every cell from B regenerates and moves to A
 
 For Example if you had 3 Cells of Type A and 2 Cells of Type B
 Either you get 5 Cells of type A and 2 Cells of Type B
-or You get 3 Cells of Type A and 5 Cells of Type Bwhile working
-while workingwhile workingwhile workingwhilewhile workingwhile workingwhile workingwhile workingwhile workingwhile workingwhile workingwhile workingwhile workingwhile workingwhile workingwhile workingwhile workingwhile working working
+or You get 3 Cells of Type A and 5 Cells of Type B
 Motu has to find the least number of steps it takes for one cell of type A and B to reach a given number of Cells
 
 Example

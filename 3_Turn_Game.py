@@ -9,10 +9,10 @@ Motu wants to know where he has to stand to win. You are asked to find the posit
 
 Input Format
 The first line indicates N the number of test cases.
-N test cases follow the first Line
+N test cases follow the first Line Each with the Number of Players (P)
 
 Constraints
-1 ≤ T ≤ 100000
+1 ≤ P ≤ 100000
 
 1 ≤ N < 263
 
