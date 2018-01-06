@@ -25,7 +25,7 @@ Given Input 15 :>
 15 --> 16 --> 8 --> 4 --> 2 --> 1 --> 0
 We can reduce to 0 in 6 steps hence 6 is the answer
 
-Since the bacteria is spreading quickly you can expect bacteria count with atmost 300 digits . So Use Large datatypes to input data and handle it.
+Since the bacteria is spreading quickly you can expect bacteria count upto 10^19 . So Use Large datatypes to input data and handle it.
 
 Input
 The first line takes into account N  
@@ -61,3 +61,6 @@ def answer(n):
             break
         counter += 1
     return counter + 1
+
+for i in range(input()):
+    print answer(input())
