@@ -17,12 +17,12 @@ Sample input  	|	Sample Output
 3 8 4 1 7 8		|	2
 
 Explanation:
-Here the building with height 8 has the maximum height. As there are 2 such buildings, hence it is the answer.
+Here the buildings with height 8 has the maximum heights. As there are 2 such buildings, hence it is the answer.
 
 Constraints
 
-1 <= n <= 105
-1 <= heighti <=107
+1 <= n <= 20000
+1 <= height <= 1000000
 
 '''
 
