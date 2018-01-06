@@ -21,8 +21,8 @@ Here the buildings with height 8 has the maximum heights. As there are 2 such bu
 
 Constraints
 
-1 <= n <= 20000
-1 <= height <= 1000000
+1 <= n <= 100
+1 <= height <= 1000
 
 '''
 
