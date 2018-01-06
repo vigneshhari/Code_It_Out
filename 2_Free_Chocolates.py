@@ -69,3 +69,4 @@ for i in range(inp):
     val = recsol(M,F,0)
     if(val == None):print "impossible"
     else: print val
+
