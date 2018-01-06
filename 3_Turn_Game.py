@@ -19,28 +19,25 @@ Constraints
 Output Format
 The position That will win has to be outputted for each test case
 
-Sample Input
-4
-2
-3
-4
-6
-Sample Output
-1
-3
-1
-5
+Sample input        |  Sample Output
+4                   |   
+2                   |   1
+3                   |   3
+4                   |   1
+6                   |   5
+
+
 Explanation
 There are four test cases in the input.
 
-With 2 petals, one would skip 1, tear 2, and then only 1 is left.
+With 6 Players,  First Player Yells 1 , Second Player Yells 2 and he is removed , Third Player Yells 3 , Fourth Player Yells 4 and he is removed , 
+5th Player yells 5 , 6th Player Yells 6 and is removed , 1st player yells 7 , 3rd player yells 8 and is removed , 5th player yells 9 , 
+1st player yells 10 and is removed
+Only 5th player Remains
 
-With 3 petals, one would skip 1, tear 2, skip 3, tear 1, and then only 3 is left.
-
-With 4 petals, one would skip 1, tear 2, skip 3, tear 4, skip 1, tear 3, and then only 1 is left.
-
-With 6 petals,  First Player Yells 1 , Second Player Yells 2 and he is removed , Third Player Yells 3 , Fourth Player Yells 4 and he is removed , 5th Player yells 5 , 6th Player Yells 6 and is removed , 1st player yells 7 , 3rd player yells 8 and is removed , 5th player yells 9 , 1st player yells 10 and is removed
-Only 5 Remains
+With 5 Players, First Player Yells 1 , Second Player Yells 2 and he is removed , Third Player Yells 3 , Fourth Player Yells 4 and he is removed , 
+5th Player yells 5, First Player Yells 6 and is removed, Third player yells 7 , 5th Player yells 8 anb is removed , 
+Only Third Player remains and he wins the game
 
 '''
 

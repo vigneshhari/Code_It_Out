@@ -15,7 +15,7 @@ Motu has to find the least number of steps it takes for one cell of type A and B
 Example
 
 if we have to reach 4,7
-Initially we have A = 1 and B = 1while workwhile workingwhile workinging
+Initially we have A = 1 and B = 1 
 After step 1 we have A = 1 and B = 2 ( A goes to B )
 After step 2 we have A = 1 and B = 3 ( A goes to B )
 After step 3 we have A = 4 and B = 3 ( B goes to A )
