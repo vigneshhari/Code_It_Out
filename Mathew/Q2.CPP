@@ -31,6 +31,7 @@ unsigned long long int recsol(unsigned long long int a,unsigned long long int b,
 }
 
 int main(){
-    cout<<recsol(1,12345678912345678999,0);
-
+    clrscr();
+    cout<<recsol(1,4294967295,0);
+    getch();
 }
