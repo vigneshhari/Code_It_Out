@@ -14,7 +14,7 @@ N test cases follow the first Line Each with the Number of Players (P)
 Constraints
 1 ≤ P ≤ 100000
 
-1 ≤ N < 263
+1 ≤ N < 10000
 
 Output Format
 The position That will win has to be outputted for each test case
