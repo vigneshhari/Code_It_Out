@@ -30,6 +30,9 @@ Output
 Output one line containing the number of steps required to reach the required cell count from initial condition ( Initially Both Cell Counts are 1)
 If a particular cell count cannot be achived Print "impossible"
 
+Constraints
+The number of cells can be upto 10^19
+
 Sample input        |  Sample Output
 4                   |   
 2 1                 |   1
