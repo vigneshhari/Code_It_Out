@@ -1,0 +1,2 @@
+C:/Users/Mathew Alex/Desktop/magnum/main/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Mathew Alex/Desktop/magnum/main/cmake-build-debug/CMakeFiles/rebuild_cache.dir
