@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 
 unsigned long long int recsol(unsigned long long int a,unsigned long long int b,unsigned long long int lev) {
     unsigned long long int time;
@@ -30,7 +29,6 @@ unsigned long long int recsol(unsigned long long int a,unsigned long long int b,
 }
 
 int main(){
-    clrscr();
-    printf("%llu" , recsol(1,4294967295,0));
-    getch();
+    printf("%llu" , recsol(1,12345678912345678999,0));
+
 }
