@@ -47,12 +47,14 @@ unsigned long long int step(unsigned long long int num) {
 
 int main()
 {
+    unsigned long long int i = 0;
     for(int i =0; i<501; i++) 
     {array[i] = 0;
     for(int j =0; j<501; j++) {
         list[i][j] = 0;
     }
     }
-    cout<<step(500);
+    cin>>i;
+    cout<<step(i);
     return 0;
 }
