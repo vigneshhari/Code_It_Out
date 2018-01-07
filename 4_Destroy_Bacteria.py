@@ -38,11 +38,11 @@ Output the number of steps required to reduce the bacteria count to 0 with the m
 Sample Cases
 
 Sample input        |  Sample Output
-4 16                |   
-3                   |   3
-2                   |   8
-5                   |   1
-10                  |   0
+4                   |   
+4                   |   3
+5                   |   4
+15                  |   6
+20                  |   6
 
 
 '''
