@@ -1,5 +1,6 @@
-#include<iostream.h>
-#include<conio.h>
+#include <iostream>
+
+using namespace std;
 
 unsigned long long int recsol(unsigned long long int a,unsigned long long int b,unsigned long long int lev) {
     unsigned long long int time;
@@ -31,7 +32,5 @@ unsigned long long int recsol(unsigned long long int a,unsigned long long int b,
 }
 
 int main(){
-    clrscr();
-    cout<<recsol(1,4294967295,0);
-    getch();
+    cout<<recsol(1,12345678912345678999,0);
 }
