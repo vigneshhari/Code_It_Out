@@ -93,7 +93,6 @@ def memoize(f):
 
 @memoize
 def step(num):
-    print num
     ss=0
     if(num <= 2):return 0
     if(num < 5):return 1
