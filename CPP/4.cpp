@@ -1,15 +1,11 @@
 #include<iostream>
-#include <cstdlib>
-#include<string>
 using namespace std;
 
 int main()
 {
     string n;
     int counter=0,num;
-    cin>>n;
-    const char *cn = n.c_str();
-    num = atoi(cn);
+    cin>>num;
     while(num > 1)
     {
         if(num % 2 == 0)
