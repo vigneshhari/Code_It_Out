@@ -1,33 +1,31 @@
-#include <iostream>
+#include <bits/stdc++.h>
 
 using namespace std;
 
-
-int c[52];
-int numCoins;
-long long table[52][252];
-int calculated[52][252];
-long long solve(int i, int make)
-{
-    if(make<0) return 0;
-    if(make==0)return 1;
-    if(i > numCoins) return 0;
-    if(calculated[i][make] == 0){ //eliminating overlap
-        table[i][make] = solve(i, make - c[i]) + solve(i+1, make);
-        calculated[i][make] = 1;
+long getWays(long n, vector < long > c){
+    // Complete this function
+    vector<long> table(n+1);
+    table[0]=1;
+    for(long i=0;i<c.size();i++)
+    {
+        for(long j=c[i];j<=n;j++)
+        {
+            table[j]+=table[j-c[i]];
+        }
     }
-    return table[i][make];
+    return table[n];
 }
-int main(){
-    
-    int make,i,j;
-    cin>>make>>numCoins;
-    for(i = 0; i< 52; i++)
-    for(j = 0; j< 252; j++)
-    calculated[i][j] = 0;
-    for(i=0;i<=numCoins;i++){
-        cin>>c[i];
+
+int main() {
+    int n;
+    int m;
+    cin >> n >> m;
+    vector<long> c(m);
+    for(int c_i = 0; c_i < m; c_i++){
+       cin >> c[c_i];
     }
-    cout<<solve(1, make)<<endl;
+    // Print the number of ways of making change for 'n' units using coins having the values given by 'c'
+    long ways = getWays(n, c);
+    cout<<ways<<endl;
     return 0;
 }
