@@ -1,10 +1,8 @@
 #include<iostream.h>
-#include<conio.h>
 #include<math.h>
 
 void main()
 {
-clrscr();
 int t,num,last_roll,n;
 cin>>t;
 for(int i=0;i<t;i++)
@@ -14,5 +12,4 @@ for(int i=0;i<t;i++)
  n = (num - (last_roll - 1)) * 2 - 1;
  cout<<"Ans:"<<n<<"\n";
  }
-getch();
 }

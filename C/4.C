@@ -1,15 +1,10 @@
-#include<iostream.h>
-#include<conio.h>
+#include<stdio.h>
 
-void main()
+int main()
 {
-    clrscr();
-    int n=1,counter,num;
-    while(n)
-    {
-    cin>>n;
+    int counter,num;
+    scanf("%d",&num);
     counter = 0;
-    num = long(n);
     while(num > 1){
 	if (num % 2 == 0)
 	    num = num / 2;
@@ -21,7 +16,6 @@ void main()
 	    break;
 	counter += 1;
     }
-    cout<<"Ans:"<<counter;
-    }
-getch();
+    printf("%d",&counter);
+    
 }
