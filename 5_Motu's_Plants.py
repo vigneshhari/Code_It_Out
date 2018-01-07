@@ -98,7 +98,6 @@ def step(num):
     if(num <= 2):return 0
     if(num < 5):return 1
     for i in range(num-1,0,-1):
-        print "Here" ,str(i)
         if ((num - i) > i  ):ss = ss + smallsteps(i,num-i);continue
         elif(i == (num - i)):pass
         else:ss += 1
