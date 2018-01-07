@@ -10,7 +10,6 @@ void main()
     cin>>n;
     counter = 0;
     num = long(n);
-    cout<<num;
     while(num > 1){
 	if (num % 2 == 0)
 	    num = num / 2;
