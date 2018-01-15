@@ -1,12 +1,4 @@
-# First Question Test Cases and Question Statement Completed.
+# Code It Out 1.0
 
-# Second Question Test Cases and Question Statement Completed.
-
-# Third Question Test Cases and Question Statement Completed.
-
-# Fourth Question Test Cases and Question Statement Completed.
-
-# Fifth Question Test Cases and Question Statement Completed.
-
-# Sixth Question Test Cases and Question Statement Completed.
-
+Code it out is an online programming contest held by College of Engineering Chengannur Annually, The Contest was conducted on 7th January 2018 Last,
+The questions , Testcases and Official answers are added in this github Repository, Use them wisely to improve your programming skills :) 
